@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background: orangered;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    width: 400px;
+    max-width: 90%;
+    border: none;
+    position: relative;
+}
+
+.input-box input{
+    border: 1px solid #000;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+::placeholder{
+    font-weight: bold;
+}
+
+#check{
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    font-weight: bold;
+    color: #292727;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#check:hover{
+    color: #ccc;
+}
